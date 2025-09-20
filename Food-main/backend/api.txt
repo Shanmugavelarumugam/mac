@@ -1,0 +1,30 @@
+Rest. Module:
+
+1.Dash Board:
+    Orders Today:
+    GET    http://localhost:3001/api/insights/1/orders-today
+    Revenue Today
+    GET     http://localhost:3001/api/insights/4/revenue-today
+    Top Selling Foods
+    GET     http://localhost:3001/api/insights/1/top-selling-foods
+    Total Customers
+    GET      http://localhost:3001/api/insights/4/total-customers
+
+2.Menu :
+    Getting Menu:
+    GET    http://localhost:3001/api/restaurants/getMenu/1
+    Create a New Food
+    POST   http://localhost:3001/api/foods
+    Updation on Food
+    PUT    http://localhost:3000/api/foods/1
+    Delete on Food
+    DELETE  http://localhost:3001/api/foods/6
+
+3.Orders:
+    Getting Order by Res Id:
+    GET http://localhost:3001/api/order/orders/1
+    Update the Status:
+    PUT http://localhost:3001/api/order/1/status
+    View Completed Orders:
+    GET http://localhost:3001/api/order/completed
+
